@@ -227,8 +227,7 @@ a.more {
 .menu {
   max-width: none;
   height: 150px;
-  background: #c05c67;
-
+  background: linear-gradient(180deg, #6533B5 30%, #471694);
 }
 
 .menu a {
@@ -260,7 +259,7 @@ ul.menu-list li a {
 
 ul.menu-list li.normal {
   display: inline;
-  @include breakpoint(780px down) {
+  @include breakpoint(790px down) {
     display: none;
   }
 }
@@ -357,8 +356,8 @@ p.appico {
   max-width: none;
   background: url(../img/canvas_pass_header.png) no-repeat;
   @include breakpoint(medium down) {
-    background-position: 25%;
-    color: #c8c8c8;
+    background-position: 30%;
+    //color: #c8c8c8;
   }
 }
 
@@ -406,7 +405,7 @@ p.appico {
 
 .canvas_header .canvas_text p {
   @include breakpoint(medium down) {
-    padding-left: 30%;
+    padding-left: 55%;
   }
 }
 .octoball_header .canvas_text p {
