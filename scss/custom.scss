@@ -1,0 +1,537 @@
+@font-face {
+  font-family: 'core_sans_gs15_thin';
+  src: url('../fonts/coresansgs15-webfont.eot');
+  src: url('../fonts/coresansgs15-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/coresansgs15-webfont.woff2') format('woff2'),
+  url('../fonts/coresansgs15-webfont.woff') format('woff'),
+  url('../fonts/coresansgs15-webfont.ttf') format('truetype'),
+  url('../fonts/coresansgs15-webfont.svg#core_sans_gs15_thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'core_sans_gs25_extralight';
+  src: url('../fonts/coresansgs25-webfont.eot');
+  src: url('../fonts/coresansgs25-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/coresansgs25-webfont.woff2') format('woff2'),
+  url('../fonts/coresansgs25-webfont.woff') format('woff'),
+  url('../fonts/coresansgs25-webfont.ttf') format('truetype'),
+  url('../fonts/coresansgs25-webfont.svg#core_sans_gs25_extralight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'core_sans_gs35_light';
+  src: url('../fonts/coresansgs35-webfont.eot');
+  src: url('../fonts/coresansgs35-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/coresansgs35-webfont.woff2') format('woff2'),
+  url('../fonts/coresansgs35-webfont.woff') format('woff'),
+  url('../fonts/coresansgs35-webfont.ttf') format('truetype'),
+  url('../fonts/coresansgs35-webfont.svg#core_sans_gs35_light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'core_sans_gs45_regular';
+  src: url('../fonts/coresansgs45-webfont.eot');
+  src: url('../fonts/coresansgs45-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/coresansgs45-webfont.woff2') format('woff2'),
+  url('../fonts/coresansgs45-webfont.woff') format('woff'),
+  url('../fonts/coresansgs45-webfont.ttf') format('truetype'),
+  url('../fonts/coresansgs45-webfont.svg#core_sans_gs45_regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'core_sans_gs55_regular';
+  src: url('/fonts/coresansgs55-webfont.eot');
+  src: url('/fonts/coresansgs55-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/coresansgs55-webfont.woff2') format('woff2'),
+  url('../fonts/coresansgs55-webfont.woff') format('woff'),
+  url('../fonts/coresansgs55-webfont.ttf') format('truetype'),
+  url('../fonts/coresansgs55-webfont.svg#core_sans_gs55_regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'core_sans_gs65_bold';
+  src: url('/fonts/coresansgs65-webfont.eot');
+  src: url('/fonts/coresansgs65-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/coresansgs65-webfont.woff2') format('woff2'),
+  url('../fonts/coresansgs65-webfont.woff') format('woff'),
+  url('../fonts/coresansgs65-webfont.ttf') format('truetype'),
+  url('../fonts/coresansgs65-webfont.svg#core_sans_gs65_bold') format('svg');
+}
+
+@font-face {
+  font-family: 'core_sans_gs95_black';
+  src: url('/fonts/coresansgs95-webfont.eot');
+  src: url('/fonts/coresansgs95-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/coresansgs95-webfont.woff2') format('woff2'),
+  url('../fonts/coresansgs95-webfont.woff') format('woff'),
+  url('../fonts/coresansgs95-webfont.ttf') format('truetype'),
+  url('../fonts/coresansgs95-webfont.svg#core_sans_gs95_black') format('svg');
+}
+
+html * {
+  font-family: 'core_sans_gs35_light', Helvetica, Roboto, Arial, sans-serif;
+}
+
+body {
+  min-width: 500px; /* suppose you want minimun width of 1000px */
+}
+
+//.cat,
+//.cat .columns {
+//  display: table;
+//  width: 100%;
+//  height: 100%;
+//}
+
+//.cat .spanMiddle {
+//  display: table-cell;
+//  text-align: center;
+//  vertical-align: middle;
+//  background: url(../img/cat_liminal_logo.gif) no-repeat 80% 50%;
+//}
+
+.cat {
+  height: 313px;
+  max-width: none;
+  background: linear-gradient(180deg, #6533B5 30%, #471694);
+}
+
+.cat h1 {
+  font-family: 'core_sans_gs55_regular', Helvetica, Roboto, Arial, sans-serif;
+  font-size: 4em;
+}
+
+h2.header {
+  font-family: 'core_sans_gs55_regular', Helvetica, Roboto, Arial, sans-serif;
+}
+
+.padding-left p {
+  font-family: 'core_sans_gs45_regular', Helvetica, Roboto, Arial, sans-serif;
+}
+
+.splitter {
+  height: 10px;
+}
+
+.canvas {
+  max-width: none;
+  height: 488px;
+  background: url(../img/canvas_pass_bg.png) repeat-x;
+}
+
+.canvas h2 {
+  color: #155178;
+  margin-bottom: 0px;
+}
+
+.chess h2,
+.octoball h2,
+.classic h2,
+.glitz h2 {
+  margin-bottom: 0px;
+}
+
+.padding-left {
+  padding-left: 50px;
+}
+
+.canvas p {
+  //color: #155178;
+}
+
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+.padding-top-30 {
+  padding-top: 30px;
+}
+
+.padding-top-45 {
+  padding-top: 45px;
+}
+
+a.more {
+  width: 150px;
+  height: 75px;
+  display: block;
+  background-repeat: no-repeat;
+  padding: 22px 0 0 30px;
+  color: #fff;
+}
+
+.canvas a.more {
+  background: url(../img/canvas_pass_read_more_button.png);
+}
+
+.chess a.more {
+  background: url(../img/chess_read_more_button.png);
+}
+
+.octoball a.more {
+  background: url(../img/octoball_read_more_button.png);
+}
+
+.classic a.more {
+  background: url(../img/classic_games_read_more_button.png);
+}
+
+.glitz a.more {
+  background: url(../img/glitz_read_more_button.png);
+}
+
+.chess {
+  max-width: none;
+  height: 488px;
+  background: url(../img/chess_bg.png) repeat-x;
+}
+
+.octoball {
+  max-width: none;
+  height: 488px;
+  background: url(../img/octoball_bg.png) repeat-x;
+}
+
+.classic {
+  max-width: none;
+  height: 488px;
+  background: url(../img/classic_games_bg.png) repeat-x;
+}
+
+.glitz {
+  max-width: none;
+  height: 488px;
+  background: linear-gradient(180deg, #39e1ff 30%, #3ccffa);
+}
+
+.footer {
+  max-width: none;
+  height: 100px;
+  background: #471694;
+}
+
+.footer p {
+  margin-bottom: 0px;
+}
+
+.menu {
+  max-width: none;
+  height: 150px;
+  background: #c05c67;
+
+}
+
+.menu a {
+  color: #fff;
+}
+.menu img {
+  max-width: 80px;
+  padding-bottom: 10px;
+  margin-left: 7px;
+}
+.menu-wrap {
+  margin-left: 50px;
+  //font-family: 'core_sans_gs55_regular', Helvetica, Roboto, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  white-space: nowrap;
+}
+ul.menu-list li a {
+  white-space: nowrap;
+  //@include breakpoint(medium down) {
+  //  color: #dddddd;
+  //}
+  //position: relative;
+  //border: 1px #903c45 solid;
+  //border-radius: 4px;
+  //padding: 15px 15px 10px 15px;
+  //top: 35px;
+}
+
+ul.menu-list li.normal {
+  display: inline;
+  @include breakpoint(780px down) {
+    display: none;
+  }
+}
+.menu-list a {
+  padding: 10px 20px;
+}
+.menu-list a.active {
+  opacity: 0.5;
+  background-color: #c86872;
+}
+.menu-list a:hover:not(.active) {
+  background-color: #903c45;
+}
+
+li.small_hide {
+  display: inline;
+  @include breakpoint(medium down) {
+    display: none;
+  }
+}
+a.dropbtn {
+  font-weight: 900;
+  font-family: 'core_sans_gs65_bold', Helvetica, Roboto, Arial, sans-serif;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #903c45;
+}
+
+li.dropdown {
+  display: none;
+  @include breakpoint(medium down) {
+    display: inline;
+  }
+}
+.dropdown-content li:not(.active){
+  background-color: #903c45;
+}
+.dropdown-content {
+  display: none;
+  right: 16px;
+  position: absolute;
+  background-color: #903c45;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  //background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.canvas_text {
+  color: #155178;
+}
+
+.canvas_text p {
+  text-align: justify;
+  font-family: 'core_sans_gs45_regular', Helvetica, Roboto, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  padding-top: 30px;
+}
+
+p.appico {
+  //margin-top: 30px;
+}
+
+.canvas_text h1 {
+  text-align: right;
+  font-size: 60px;
+  font-family: 'core_sans_gs25_extralight', Helvetica, Roboto, Arial, sans-serif;
+}
+
+.canvas_header div.header {
+  height: 501px;
+  max-width: none;
+  background: url(../img/canvas_pass_header.png) no-repeat;
+  @include breakpoint(medium down) {
+    background-position: 25%;
+    color: #c8c8c8;
+  }
+}
+
+.chess_header, .classic_header {
+  background-color: #e1e5ed;
+}
+
+.glitz_header {
+  background-color: #ff05d0;
+}
+
+.chess_header div.header {
+  height: 501px;
+  max-width: none;
+  background: url(../img/chess_header.png) no-repeat;
+  @include breakpoint(medium down) {
+    background-position: 25%;
+  }
+}
+
+.octoball_header {
+  background-color: #822c7e;
+}
+
+.octoball_header div.header {
+  height: 501px;
+  max-width: none;
+  background: url(../img/octoball_header.png) no-repeat;
+  @include breakpoint(medium down) {
+    background-position: 15%;
+  }
+  color: #fff;
+}
+
+.octoball_header_icon div {
+  @include breakpoint(medium down) {
+    padding-right: 70px;
+    margin-top: -65px;
+  }
+  @include breakpoint(large up) {
+    padding-right: 70px;
+    margin-top: -100px;
+  }
+}
+
+.canvas_header .canvas_text p {
+  @include breakpoint(medium down) {
+    padding-left: 30%;
+  }
+}
+.octoball_header .canvas_text p {
+  @include breakpoint(medium down) {
+    padding-left: 45%;
+  }
+  padding-bottom: 60px;
+}
+.classic_header .canvas_text p,
+.chess_header .canvas_text p,
+.glitz_header .canvas_text p {
+  @include breakpoint(medium down) {
+    padding-left: 30%;
+  }
+}
+
+.classic_header div.header {
+  height: 501px;
+  max-width: none;
+  background: url(../img/classic_games_header.png) no-repeat;
+  @include breakpoint(medium down) {
+    background-position: 50%;
+  }
+}
+
+.glitz_header div.header {
+  height: 501px;
+  max-width: none;
+  background: url(../img/glitz_header.png) no-repeat;
+  @include breakpoint(medium down) {
+    background-position: 57%;
+  }
+  color: #fff;
+}
+
+.header-wrap, .header-wrap .row {
+  max-width: none;
+}
+
+.canvas-body-wrap {
+  height: 1784px;
+  background: url(../img/canvas_pass_bg1.png) repeat-x;
+}
+
+.chess-body-wrap {
+  height: 1884px;
+  background: url(../img/chess_bg2.png) repeat;
+}
+
+.octoball-body-wrap {
+  background: url(../img/octoball_stars.png) repeat, linear-gradient(180deg, #182852 30%, #6b3680);
+  padding-bottom: 150px;
+}
+
+.classic-body-wrap {
+  background: url(../img/classic_games_bg2.png) repeat;
+  padding-bottom: 150px;
+}
+
+.glitz-body-wrap {
+  background: linear-gradient(180deg, #39e1ff 50%, #3ccffa);
+  padding-bottom: 150px;
+}
+
+.icon, .screens, .descr, .photo, .descr2, .appicon {
+  max-width: none;
+  //height: 100px;
+}
+
+.icon, .screens {
+  padding-top: 70px;
+}
+
+.descr {
+  padding-top: 140px;
+}
+
+.photo {
+  padding-top: 120px;
+}
+
+.descr2 {
+  padding-top: 35px;
+}
+
+.appicon {
+
+}
+
+.screens img {
+  //width: 75%;
+}
+
+p.fs11 {
+  font-size: 1.1em;
+}
+
+p.fs15 {
+  font-size: 1.5em;
+}
+
+p.fs16 {
+  font-size: 1.6em;
+}
+
+p.fs18 {
+  font-size: 1.8em;
+}
+
+p.fs26 {
+  font-size: 2.6em;
+}
+
+p.gs25 {
+  font-family: 'core_sans_gs25_extralight', Helvetica, Roboto, Arial, sans-serif;
+}
+
+p.gs35 {
+  font-family: 'core_sans_gs35_light', Helvetica, Roboto, Arial, sans-serif;
+}
+
+p.gs45 {
+  font-family: 'core_sans_gs45_regular', Helvetica, Roboto, Arial, sans-serif;
+}
+
+p.lh12 {
+  line-height: 1.2em;
+}
