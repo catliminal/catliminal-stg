@@ -103,7 +103,7 @@ body {
 .cat {
   height: 313px;
   max-width: none;
-  background: linear-gradient(180deg, #6533B5 30%, #471694);
+  background: linear-gradient(180deg, #6533B5 20%, #471694);
 }
 
 .cat h1 {
@@ -130,7 +130,7 @@ h2.header {
 }
 
 .canvas h2 {
-  color: #155178;
+  //color: #155178;
   margin-bottom: 0px;
 }
 
@@ -227,7 +227,7 @@ a.more {
 .menu {
   max-width: none;
   height: 150px;
-  background: linear-gradient(180deg, #6533B5 30%, #471694);
+  background: linear-gradient(180deg, #6533B5 20%, #471694);
 }
 
 .menu a {
@@ -268,10 +268,10 @@ ul.menu-list li.normal {
 }
 .menu-list a.active {
   opacity: 0.5;
-  background-color: #c86872;
+  background-color: #3A1052;
 }
 .menu-list a:hover:not(.active) {
-  background-color: #903c45;
+  background-color: #3e1977;
 }
 
 li.small_hide {
@@ -533,4 +533,12 @@ p.gs45 {
 
 p.lh12 {
   line-height: 1.2em;
+}
+::selection {
+  background: #fff; /* WebKit/Blink Browsers */
+  color: #999;
+}
+::-moz-selection {
+  background: #fff; /* Gecko Browsers */
+  color: #999;
 }
