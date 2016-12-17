@@ -83,7 +83,7 @@ html * {
 }
 
 body {
-  min-width: 500px; /* suppose you want minimun width of 1000px */
+  min-width: 750px; /* suppose you want minimun width of 1000px */
 }
 
 //.cat,
@@ -113,7 +113,7 @@ body {
 
 h2.header {
   font-family: 'core_sans_gs55_regular', Helvetica, Roboto, Arial, sans-serif;
-  white-space: nowrap;
+  //white-space: nowrap;
 }
 
 .padding-left p {
@@ -149,7 +149,12 @@ h2.header {
 .canvas p {
   //color: #155178;
 }
-
+.padding-top-10 {
+  padding-top: 10px;
+}
+.padding-top-15 {
+  padding-top: 15px;
+}
 .padding-top-20 {
   padding-top: 20px;
 }
@@ -548,4 +553,7 @@ a.app_url2 img {
 }
 a.app_url1 img {
   width: 135px;
+}
+div.double-row p {
+  min-height: 50px;
 }
